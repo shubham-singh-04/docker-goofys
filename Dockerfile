@@ -16,5 +16,3 @@ RUN mkdir /tmp/mnt /tmp/cache
 COPY entrypoint.sh /
 
 ENTRYPOINT ["/entrypoint.sh"]
-
-CMD ["bash"]

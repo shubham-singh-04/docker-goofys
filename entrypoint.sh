@@ -1,3 +1,4 @@
 #!/bin/bash
 syslog-ng
-exec $@
+$@
+bash
